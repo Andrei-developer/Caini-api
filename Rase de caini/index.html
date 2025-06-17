@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rase de caini</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <select id="DogName">
+                <option value style="display: none;"></option>
+                <option value="affenpinscher">Affenpinscher</option>
+                <option value="african">African</option>
+                <option value="airedale">Airedale</option>
+                <option value="akita">Akita</option>
+                <option value="appenzeller">Appenzeller</option>
+                <option value="australian-kelpie">Kelpie Australian</option>
+                <option value="australian-shepherd">Shepherd
+                    Australian</option>
+                <option value="bakharwal-indian">Indian Bakharwal</option>
+                <option value="basenji">Basenji</option>
+                <option value="beagle">Beagle</option>
+                <option value="bluetick">Bluetick</option>
+                <option value="borzoi">Borzoi</option>
+                <option value="bouvier">Bouvier</option>
+                <option value="boxer">Boxer</option>
+                <option value="brabancon">Brabancon</option>
+                <option value="briard">Briard</option>
+                <option value="buhund-norwegian">Norwegian Buhund</option>
+                <option value="bulldog-boston">Boston Bulldog</option>
+                <option value="bulldog-english">English Bulldog</option>
+                <option value="bulldog-french">French Bulldog</option>
+                <option value="bullterrier-staffordshire">Staffordshire
+                    Bullterrier</option>
+                <option value="cattledog-australian">Australian
+                    Cattledog</option>
+                <option value="cavapoo">Cavapoo</option>
+                <option value="chihuahua">Chihuahua</option>
+                <option value="chippiparai-indian">Indian
+                    Chippiparai</option>
+                <option value="chow">Chow</option>
+                <option value="clumber">Clumber</option>
+                <option value="cockapoo">Cockapoo</option>
+                <option value="collie-border">Corder Collie</option>
+                <option value="coonhound">Coonhound</option>
+                <option value="corgi-cardigan">Cardigan Corgi</option>
+                <option value="cotondetulear">Cotondetulear</option>
+                <option value="dachshund">Dachshund</option>
+                <option value="dalmatian">Dalmatian</option>
+                <option value="dane-great">Great Dane</option>
+                <option value="danish-swedish">Swedish Danish</option>
+                <option value="deerhound-scottish">Scottish
+                    Deerhound</option>
+                <option value="dhole">Dhole</option>
+                <option value="dingo">Dingo</option>
+                <option value="doberman">Doberman</option>
+                <option value="elkhound-norwegian">Norwegian
+                    Elkhound</option>
+                <option value="entlebucher">Entlebucher</option>
+                <option value="eskimo">Eskimo</option>
+                <option value="finnish-lapphund">Lapphund Finnish</option>
+                <option value="frise-bichon">Bichon Frise</option>
+                <option value="gaddi-indian">Indian Gaddi</option>
+                <option value="germanshepherd">Germanshepherd</option>
+                <option value="greyhound-indian">Indian Greyhound</option>
+                <option value="greyhound-italian">Italian Greyhound</option>
+                <option value="groenendael">Groenendael</option>
+                <option value="havanese">Havanese</option>
+                <option value="hound-afghan">Afghan Hound</option>
+                <option value="hound-basset">Basset Hound</option>
+                <option value="hound-blood">Blood Hound</option>
+                <option value="hound-english">English Hound</option>
+                <option value="hound-ibizan">Ibizan Hound</option>
+                <option value="hound-plott">Plott Hound</option>
+                <option value="hound-walker">Walker Hound</option>
+                <option value="husky">Husky</option>
+                <option value="keeshond">Keeshond</option>
+                <option value="kelpie">Kelpie</option>
+                <option value="kombai">Kombai</option>
+                <option value="komondor">Komondor</option>
+                <option value="kuvasz">Kuvasz</option>
+                <option value="labradoodle">Labradoodle</option>
+                <option value="labrador">Labrador</option>
+                <option value="leonberg">Leonberg</option>
+                <option value="lhasa">Lhasa</option>
+                <option value="malamute">Malamute</option>
+                <option value="malinois">Malinois</option>
+                <option value="maltese">Maltese</option>
+                <option value="mastiff-bull">Bull Mastiff</option>
+                <option value="mastiff-english">English Mastiff</option>
+                <option value="mastiff-indian">Indian Mastiff</option>
+                <option value="mastiff-tibetan">Tibetan Mastiff</option>
+                <option value="mexicanhairless">Mexicanhairless</option>
+                <option value="mix">Mix</option>
+                <option value="mountain-bernese">Bernese Mountain</option>
+                <option value="mountain-swiss">Swiss Mountain</option>
+                <option value="mudhol-indian">Indian Mudhol</option>
+                <option value="newfoundland">Newfoundland</option>
+                <option value="otterhound">Otterhound</option>
+                <option value="ovcharka-caucasian">Caucasian
+                    Ovcharka</option>
+                <option value="papillon">Papillon</option>
+                <option value="pariah-indian">Indian Pariah</option>
+                <option value="pekinese">Pekinese</option>
+                <option value="pembroke">Pembroke</option>
+                <option value="pinscher-miniature">Miniature
+                    Pinscher</option>
+                <option value="pitbull">Pitbull</option>
+                <option value="pointer-german">German Pointer</option>
+                <option value="pointer-germanlonghair">Germanlonghair
+                    Pointer</option>
+                <option value="pomeranian">Pomeranian</option>
+                <option value="poodle-medium">Medium Poodle</option>
+                <option value="poodle-miniature">Miniature Poodle</option>
+                <option value="poodle-standard">Standard Poodle</option>
+                <option value="poodle-toy">Toy Poodle</option>
+                <option value="pug">Pug</option>
+                <option value="puggle">Puggle</option>
+                <option value="pyrenees">Pyrenees</option>
+                <option value="rajapalayam-indian">Indian
+                    Rajapalayam</option>
+                <option value="redbone">Redbone</option>
+                <option value="retriever-chesapeake">Chesapeake
+                    Retriever</option>
+                <option value="retriever-curly">Curly Retriever</option>
+                <option value="retriever-flatcoated">Flatcoated
+                    Retriever</option>
+                <option value="retriever-golden">Golden Retriever</option>
+                <option value="ridgeback-rhodesian">Rhodesian
+                    Ridgeback</option>
+                <option value="rottweiler">Rottweiler</option>
+                <option value="saluki">Saluki</option>
+                <option value="samoyed">Samoyed</option>
+                <option value="schipperke">Schipperke</option>
+                <option value="schnauzer-giant">Giant Schnauzer</option>
+                <option value="schnauzer-miniature">Miniature
+                    Schnauzer</option>
+                <option value="segugio-italian">Italian Segugio</option>
+                <option value="setter-english">English Setter</option>
+                <option value="setter-gordon">Gordon Setter</option>
+                <option value="setter-irish">Irish Setter</option>
+                <option value="sharpei">Sharpei</option>
+                <option value="sheepdog-english">English Sheepdog</option>
+                <option value="sheepdog-indian">Indian Sheepdog</option>
+                <option value="sheepdog-shetland">Shetland Sheepdog</option>
+                <option value="shiba">Shiba</option>
+                <option value="shihtzu">Shihtzu</option>
+                <option value="spaniel-blenheim">Blenheim Spaniel</option>
+                <option value="spaniel-brittany">Brittany Spaniel</option>
+                <option value="spaniel-cocker">Cocker Spaniel</option>
+                <option value="spaniel-irish">Irish Spaniel</option>
+                <option value="spaniel-japanese">Japanese Spaniel</option>
+                <option value="spaniel-sussex">Sussex Spaniel</option>
+                <option value="spaniel-welsh">Welsh Spaniel</option>
+                <option value="spitz-indian">Indian Spitz</option>
+                <option value="spitz-japanese">Japanese Spitz</option>
+                <option value="springer-english">English Springer</option>
+                <option value="stbernard">Stbernard</option>
+                <option value="terrier-american">American Terrier</option>
+                <option value="terrier-australian">Australian
+                    Terrier</option>
+                <option value="terrier-bedlington">Bedlington
+                    Terrier</option>
+                <option value="terrier-border">Border Terrier</option>
+                <option value="terrier-cairn">Cairn Terrier</option>
+                <option value="terrier-dandie">Dandie Terrier</option>
+                <option value="terrier-fox">Fox Terrier</option>
+                <option value="terrier-irish">Irish Terrier</option>
+                <option value="terrier-kerryblue">Kerryblue Terrier</option>
+                <option value="terrier-lakeland">Lakeland Terrier</option>
+                <option value="terrier-norfolk">Norfolk Terrier</option>
+                <option value="terrier-norwich">Norwich Terrier</option>
+                <option value="terrier-patterdale">Patterdale
+                    Terrier</option>
+                <option value="terrier-russell">Russell Terrier</option>
+                <option value="terrier-scottish">Scottish Terrier</option>
+                <option value="terrier-sealyham">Sealyham Terrier</option>
+                <option value="terrier-silky">Silky Terrier</option>
+                <option value="terrier-tibetan">Tibetan Terrier</option>
+                <option value="terrier-toy">Toy Terrier</option>
+                <option value="terrier-welsh">Welsh Terrier</option>
+                <option value="terrier-westhighland">Westhighland
+                    terrier</option>
+                <option value="terrier-wheaten">Wheaten Terrier</option>
+                <option value="terrier-yorkshire">Yorkshire Terrier</option>
+                <option value="tervuren">Tervuren</option>
+                <option value="vizsla">Vizsla</option>
+                <option value="waterdog-spanish">Spanish Waterdog</option>
+                <option value="weimaraner">Weimaraner</option>
+                <option value="whippet">Whippet</option>
+                <option value="wolfhound-irish">Irish Wolfhound</option>
+            </select>
+            <button onclick="Cauta()"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="container-2">
+            <div class="display">
+                <img src alt="dog" id="DogImg" style="display: none;">
+            </div>
+            <div class="scrollSection">
+                <div id="images">
+
+                    <div class="imgs" id="container1">
+                        <select name style="display: none;">
+                            <option value="terrier-dandie"
+                                id="option1">salut</option>
+                        </select>
+                        <p>Dandie Terrier</p>
+                        <img src id="img1" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container2">
+                        <select name style="display: none;">
+                            <option value="retriever-golden"
+                                id="option2"></option>
+                        </select>
+                        <p>Golden Retriever</p>
+                        <img src id="img2" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container3">
+                        <select name style="display: none;">
+                            <option value="terrier-silky"
+                                id="option3"></option>
+                        </select>
+                        <p>Silky Terrier</p>
+                        <img src id="img3" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container4">
+                        <select name style="display: none;">
+                            <option value="poodle-toy"
+                                id="option4"></option>
+                        </select>
+                        <p>Toy Poodle</p>
+                        <img src id="img4" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container5">
+                        <select name style="display: none;">
+                            <option value="sheepdog-english"
+                                id="option5"></option>
+                        </select>
+                        <p>English Sheepdog</p>
+                        <img src id="img5" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container6">
+                        <select name style="display: none;">
+                            <option value="bakharwal-indian"
+                                id="option6"></option>
+                        </select>
+                        <p>Indian Bakharwal</p>
+                        <img src id="img6" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container7">
+                        <select name style="display: none;">
+                            <option value="corgi-cardigan"
+                                id="option7"></option>
+                        </select>
+                        <p>Cardigan Corgi</p>
+                        <img src id="img7" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container8">
+                        <select name style="display: none;">
+                            <option value="greyhound-italian"
+                                id="option8"></option>
+                        </select>
+                        <p>Italian Greyhound</p>
+                        <img src id="img8" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container9">
+                        <select name style="display: none;">
+                            <option value="hound-plott"
+                                id="option9"></option>
+                        </select>
+                        <p>Plott Hound</p>
+                        <img src id="img9" class="dogs">
+                    </div>
+
+                    <div class="imgs" id="container10">
+                        <select name style="display: none;">
+                            <option value="pointer-german"
+                                id="option10"></option>
+                        </select>
+                        <p>German Pointer</p>
+                        <img src id="img10" class="dogs">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

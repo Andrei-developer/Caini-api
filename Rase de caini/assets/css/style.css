@@ -1,0 +1,276 @@
+/* /////////////////////// 
+ -------Resset code-------- 
+ /////////////////////// */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+/* /////////////////////// 
+     -------    Root   -------- 
+     /////////////////////// */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.display {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  gap: 30px;
+  background-color: #1a1a1a;
+  margin: 20px 0px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.container {
+  position: fixed;
+  top: 25px;
+  width: 800px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+
+select {
+  width: 85%;
+  height: 100%;
+  font-size: 40px;
+  padding: 0px 0px 0px 20px;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+  background-color: #d3d3d3;
+}
+
+button {
+  width: 15%;
+  height: 100%;
+  font-size: 25px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  background-color: #a5a5a5;
+  color: #000;
+}
+
+button:hover {
+  background-color: #bbbbbb;
+}
+
+button:active {
+  background-color: #6d6d6d;
+}
+
+#DogImg {
+  height: 100%;
+  border-radius: 20px;
+  max-width: 95%;
+}
+
+.scrollSection {
+  height: 100vh;
+  position: relative;
+  bottom: 30px;
+}
+
+#images {
+  position: fixed;
+  top: 120px;
+  right: 25px;
+  width: 25.25%;
+  height: 80%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.imgs {
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+  margin: 7.5px 0px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dogs {
+  height: 80%;
+  border-radius: 5px;
+  max-width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  color: #000000;
+  padding: 15px 60px;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+  .display {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: 30px;
+    left: 0px;
+  }
+  .container {
+    position: relative;
+  }
+  #images {
+    position: relative;
+    top: 60px;
+    width: 700px;
+    left: 0px;
+  }
+  #container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    width: 500px;
+    height: 50px;
+  }
+
+  #DogName {
+    font-size: 30px;
+  }
+
+  .display {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 20px;
+    left: 0px;
+    padding: 10px;
+  }
+
+  #images {
+    position: relative;
+    top: 40px;
+    width: 500px;
+    left: 0px;
+    height: 100%;
+  }
+
+  #container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+    height: 50px;
+  }
+
+  #DogName {
+    font-size: 20px;
+  }
+
+  .display {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 20px;
+    left: 0px;
+    padding: 10px;
+  }
+
+  #images {
+    position: relative;
+    top: 40px;
+    width: 300px;
+    height: 100%;
+    left: 0px;
+  }
+
+  .imgs {
+    height: 200px;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    padding: 0px 40px;
+  }
+
+  #container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+}
